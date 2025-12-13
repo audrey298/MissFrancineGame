@@ -10,9 +10,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#fff0f3"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "package": "com.audrey298.missfrancinegame",
       "adaptiveIcon": {
@@ -22,6 +20,11 @@
     },
     "web": {
       "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1fcceeb7-d17f-49b5-a2ad-14a369d0f2b0"
+      }
     }
   }
 }
